@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.02cfdc7f.chunk.css",
+    "main.js": "/portfolio/static/js/main.096d4e36.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.096d4e36.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8a8a946c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8a8a946c.js.map",
+    "static/js/2.9290f891.chunk.js": "/portfolio/static/js/2.9290f891.chunk.js",
+    "static/js/2.9290f891.chunk.js.map": "/portfolio/static/js/2.9290f891.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.02cfdc7f.chunk.css.map": "/portfolio/static/css/main.02cfdc7f.chunk.css.map",
+    "static/js/2.9290f891.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9290f891.chunk.js.LICENSE.txt",
+    "static/media/browser-center.4a285dde.png": "/portfolio/static/media/browser-center.4a285dde.png",
+    "static/media/browser-left.f69d8c54.png": "/portfolio/static/media/browser-left.f69d8c54.png",
+    "static/media/browser-right.56c64b2f.png": "/portfolio/static/media/browser-right.56c64b2f.png",
+    "static/media/Home.css": "/portfolio/static/media/forestbridge.b138df8d.jpg",
+    "static/media/layers.1a8f8c10.png": "/portfolio/static/media/layers.1a8f8c10.png",
+    "static/media/layers1.184f3942.png": "/portfolio/static/media/layers1.184f3942.png",
+    "static/media/layers2.d01c8cc9.png": "/portfolio/static/media/layers2.d01c8cc9.png",
+    "static/media/layers3.892f6904.png": "/portfolio/static/media/layers3.892f6904.png",
+    "static/media/layers4.f744f666.png": "/portfolio/static/media/layers4.f744f666.png",
+    "static/media/layers5.1574c269.png": "/portfolio/static/media/layers5.1574c269.png",
+    "static/media/phone.55c7939a.png": "/portfolio/static/media/phone.55c7939a.png",
+    "static/media/styles.css": "/portfolio/static/media/sponsor_bg.fe9a9f2b.png",
+    "static/media/recent_legs.93061b7d.png": "/portfolio/static/media/recent_legs.93061b7d.png",
+    "static/media/recent_liner.caf2c70a.png": "/portfolio/static/media/recent_liner.caf2c70a.png",
+    "static/media/recent_typing.570e12a9.png": "/portfolio/static/media/recent_typing.570e12a9.png",
+    "static/media/widget_book.e25c94f3.png": "/portfolio/static/media/widget_book.e25c94f3.png",
+    "static/media/widget_icons.32741174.png": "/portfolio/static/media/widget_icons.32741174.png",
+    "static/media/widget_package.1aed5e4b.png": "/portfolio/static/media/widget_package.1aed5e4b.png",
+    "static/media/widget_phones.b2a667d1.png": "/portfolio/static/media/widget_phones.b2a667d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a8a946c.js",
+    "static/js/2.9290f891.chunk.js",
+    "static/css/main.02cfdc7f.chunk.css",
+    "static/js/main.096d4e36.chunk.js"
+  ]
+}
