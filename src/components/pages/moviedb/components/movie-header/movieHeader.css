@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "AdobeGothicStd";
+  src: local("AdobeGothicStd-Bold"),
+    url("../../../../../fonts/AdobeGothicStd-Bold.otf") format("opentype");
+}
+
+.movie__header {
+  min-height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 18px;
+  font-family: "AdobeGothicStd";
+  color: rgb(63, 68, 78);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  max-width: 350px;
+}
+.header__item {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.header__profile {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__icon {
+  fill: rgb(87, 92, 103);
+}
+.header__name {
+  font-size: 15px;
+  font-family: "AdobeGothicStd";
+  color: rgb(63, 68, 78);
+  font-weight: bold;
+}
+.item__about {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 35px);
+  width: 67px;
+  height: 30px;
+  background-image: url("../../images/header-about.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: bold;
+  line-height: 35px;
+  color: #ffffff;
+  opacity: 0;
+  transition: 0.2s;
+  z-index: 100;
+}
+.header__item:hover .header__icon {
+  fill: rgb(216, 35, 42);
+}
+.header__item:hover .item__about {
+  opacity: 1;
+  transition: 0.5s;
+}
+
