@@ -20,6 +20,7 @@ import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import PhotoAlbumIcon from '@material-ui/icons/PhotoAlbum';
+import MovieFilterIcon from '@material-ui/icons/MovieFilter';
 
 
 import {
@@ -37,6 +38,8 @@ import DownloadCV from "../pages/cv/downloadCV";
 import Home from "../pages/home/Home";
 
 import Waxom from '../pages/waxom/Waxom';
+
+import Moviedb from "../pages/moviedb/Moviedb";
 
 const drawerWidth = 340;
 
@@ -218,6 +221,14 @@ export default function MiniDrawer() {
                 <ListItemText primary="Waxom Home Page" />
               </ListItem>
             </Link>
+            <Link to="/moviedb" className={classes.link}>
+              <ListItem button key="moviedb">
+                <ListItemIcon>
+                  <MovieFilterIcon />
+                </ListItemIcon>
+                <ListItemText primary="Movie DB" />
+              </ListItem>
+            </Link>
           </List>
         </Drawer>
         <main className={classes.content}>
@@ -230,6 +241,8 @@ export default function MiniDrawer() {
             <Route path="/download" component={DownloadCV} />
 
             <Route path="/waxom" component={Waxom} />
+
+            <Route path="/moviedb" component={Moviedb} />
 
           </Switch>
         </main>
