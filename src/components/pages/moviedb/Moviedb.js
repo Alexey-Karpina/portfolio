@@ -2,6 +2,7 @@ import React from "react";
 import MovieHeader from "./components/movie-header/movieHeader";
 import MovieService from "./services/movie-service";
 import RandomMovie from "./components/random-movie/randomMovie";
+import FeaturedMovies from './components/featured-movies/featuredMovies';
 
 const Moviedb = () => {
   const db = new MovieService();
@@ -12,6 +13,7 @@ const Moviedb = () => {
     <div className="wrapper">
       <MovieHeader />
       <RandomMovie />
+      <FeaturedMovies />
     </div>
   );
 };

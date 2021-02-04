@@ -1,0 +1,12 @@
+.movie__rating{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating__item:nth-child(n-3) svg{
+    fill: rgb(216, 35, 42);
+}

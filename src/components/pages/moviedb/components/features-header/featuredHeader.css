@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "AdobeGothicStd";
+  src: local("AdobeGothicStd-Bold"),
+    url("../../../../../fonts/AdobeGothicStd-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Calibri";
+  src: local("calibri"),
+    url("../../../../../fonts/calibri.ttf") format("truetype");
+}
+.featured__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+}
+.featured__title {
+  font-size: 17px;
+  font-family: "AdobeGothicStd";
+  color: rgb(63, 68, 78);
+  font-weight: bold;
+}
+.featured__about {
+  font-size: 18px;
+  font-family: "Calibri";
+  color: rgb(63, 68, 78);
+  font-style: italic;
+}
+.featured__search{
+    position: relative;
+}
+.button__search{
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-image: url('../../images/icons/icon-search.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+}
+.featured__search input {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(63, 68, 78);
+  font-style: italic;
+  border: none;
+  border-bottom: 1px solid rgba(63, 68, 78, .2);
+  outline: none;
+}
+::-webkit-input-placeholder {color: rgb(155, 158, 163);}
+::-moz-placeholder          {color: rgb(155, 158, 163);}/* Firefox 19+ */
+:-moz-placeholder           {color: rgb(155, 158, 163);}/* Firefox 18- */
+:-ms-input-placeholder      {color: rgb(155, 158, 163);}

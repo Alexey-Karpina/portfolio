@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "AdobeGothicStd";
+  src: local("AdobeGothicStd-Bold"),
+    url("../../../../../fonts/AdobeGothicStd-Bold.otf") format("opentype");
+}
+.slider__info-main {
+  width: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: "AdobeGothicStd";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.slider__info-main span {
+  color: rgb(216, 35, 42);
+}
+.slider__rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}

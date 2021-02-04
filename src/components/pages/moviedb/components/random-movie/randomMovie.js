@@ -1,10 +1,9 @@
 import React from "react";
 import "./randomMovie.css";
-import sliderBG from "../../images/slider-bg.png";
 import Slider from "react-slick";
+import MovieSlider from '../movie-slider/movieSlider';
 
 const settings = {
-  dots: true,
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -26,15 +25,9 @@ const RandomMovie = () => {
     <section className="movie__slider">
       <div className="slider-window">
         <Slider {...settings}>
-          <div className="slider-window">
-            <img src={sliderBG} />
-          </div>
-          <div className="slider-window">
-            <img src={sliderBG} />
-          </div>
-          <div className="slider-window">
-            <img src={sliderBG} />
-          </div>
+          <MovieSlider />
+          <MovieSlider />
+          <MovieSlider />
         </Slider>
       </div>
     </section>
