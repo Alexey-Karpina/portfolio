@@ -33,7 +33,7 @@
 .front {
   z-index: 2;
 }
-.front .slider__likes {
+.front .item__likes {
   position: absolute;
   top: 10px;
   left: 20px;
@@ -42,7 +42,7 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
-.front .slider__likes svg {
+.front .item__likes svg {
   margin-right: 10px;
 }
 .item__name {
@@ -58,4 +58,34 @@
 /* обратная, изначально скрытая сторона */
 .back {
   transform: rotateY(180deg);
+  font-size: 14px;
+  font-family: "AdobeGothicStd";
+  color: rgb(63, 68, 78);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(63, 68, 78, .2);
+  border-radius: 5px;
+  padding: 10px;
+}
+.item__info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.item__rating {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.item__release {
+  flex-grow: 1;
+}
+.item__release span {
+  font-weight: normal;
+}
+.item__info svg {
+  margin-right: 15px;
 }

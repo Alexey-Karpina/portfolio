@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieLikes = () => {
     return(
-        <div className="slider__likes">
+        <>
           <svg width="15px" height="14px">
             <path
               fill-rule="evenodd"
@@ -11,7 +11,7 @@ const MovieLikes = () => {
             />
           </svg>
           2,548
-        </div>
+        </>
     )
 };
 
