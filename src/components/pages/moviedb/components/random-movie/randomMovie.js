@@ -12,12 +12,6 @@ const settings = {
   autoplay: true,
   autoplaySpeed: 5000,
   pauseOnHover: true,
-  beforeChange: function (currentSlide, nextSlide) {
-    console.log("before change", currentSlide, nextSlide);
-  },
-  afterChange: function (currentSlide) {
-    console.log("after change", currentSlide);
-  },
 };
 
 const RandomMovie = () => {

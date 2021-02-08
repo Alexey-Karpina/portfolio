@@ -2,18 +2,19 @@ import React from "react";
 import "./movieMainInfo.css";
 import MovieRating from "../movie-rating/movieRating";
 
-const MovieMainInfo = () => {
+const MovieMainInfo = ({info}) => {
+  const {release, rating } = info;
   return (
     <div className="slider__info-main">
       <div className="slider__published">
-        PUBLISHED <span>FEB 20, 2014</span>
+        PUBLISHED <span>{release}</span>
       </div>
       <div className="slider__updated">
-        UPDATED <span>FEB 20, 2014</span>
+        UPDATED <span>{release}</span>
       </div>
       <div className="slider__rating">
         RATING
-        <MovieRating />
+        <MovieRating rating={rating}/>
       </div>
     </div>
   );

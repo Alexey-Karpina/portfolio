@@ -4,15 +4,18 @@ import MovieLikes from "../movie-likes/movieLikes";
 import MovieComments from "../movieComments/movieComments";
 import "./movieActivity.css";
 
-const MovieActivity = () => {
+const MovieActivity = ( {activity} ) => {
+  const { likes, comments } = activity;
+  console.log(likes);
+
   return (
     <>
       <div className="slider__info-activity">
         <div className="slider__likes">
-          <MovieLikes />
+          <MovieLikes likes={likes} />
         </div>
         <div className="slider__comments">
-          <MovieComments />
+          <MovieComments comments={comments} />
         </div>
         <div className="slider__likes">
           <MovieDownloads />

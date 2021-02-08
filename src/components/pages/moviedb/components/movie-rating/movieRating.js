@@ -1,7 +1,7 @@
 import React from "react";
 import "./movieRating.css";
 
-const MovieRating = () => {
+const MovieRating = ({rating}) => {
   return (
     <ul className="movie__rating">
       <li className="rating__item">
