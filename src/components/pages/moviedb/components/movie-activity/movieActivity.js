@@ -1,12 +1,11 @@
 import React from "react";
 import MovieDownloads from "../movie-downloads/movieDownloads";
 import MovieLikes from "../movie-likes/movieLikes";
-import MovieComments from "../movieComments/movieComments";
+import MovieComments from "../movie-comments/movieComments";
 import "./movieActivity.css";
 
 const MovieActivity = ( {activity} ) => {
   const { likes, comments } = activity;
-  console.log(likes);
 
   return (
     <>

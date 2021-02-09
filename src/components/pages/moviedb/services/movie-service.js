@@ -25,6 +25,9 @@ export default class MovieService {
         return this.getResourse(`movie/${id}/reviews?api_key=${this.api_key}`);
     }
     getMoviePoster(path){
-        return `https://image.tmdb.org/t/p/w500/${path}`;
+        return `https://image.tmdb.org/t/p/w300${path}`;
+    }
+    getMovieImages(id){
+        return this.getResourse(`movie/${id}/images?api_key=${this.api_key}&language=en-US`);
     }
 }

@@ -4,6 +4,7 @@ import MovieRating from "../movie-rating/movieRating";
 
 const MovieMainInfo = ({info}) => {
   const {release, rating } = info;
+  console.log(info);
   return (
     <div className="slider__info-main">
       <div className="slider__published">

@@ -4,7 +4,7 @@ import Item1 from "../../images/item1.png";
 import MovieLikes from "../movie-likes/movieLikes";
 import MovieActivity from "../movie-activity/movieActivity";
 import MovieRating from "../movie-rating/movieRating";
-import MovieComments from "../movieComments/movieComments";
+import MovieComments from "../movie-comments/movieComments";
 import MovieDownloads from "../movie-downloads/movieDownloads";
 
 const MovieItem = () => {

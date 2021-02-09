@@ -1,7 +1,7 @@
 import React from "react";
 import "./randomMovie.css";
 import Slider from "react-slick";
-import MovieSlider from '../movie-slider/movieSlider';
+import MovieSlider from "../movie-slider/movieSlider";
 
 const settings = {
   infinite: true,
@@ -13,7 +13,6 @@ const settings = {
   autoplaySpeed: 5000,
   pauseOnHover: true,
 };
-
 const RandomMovie = () => {
   return (
     <section className="movie__slider">
